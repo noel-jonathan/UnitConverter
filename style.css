@@ -4,6 +4,36 @@ html {
     font-family: Inter;
 }
 
+body {
+    
+}
+
 header {
-    background: #FBBF24;
+    width: 550px;
+    height: 285px;
+    background: #F59E0B;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+button, input {
+    box-sizing: border-box;
+    width: 120px;
+}
+
+input {
+    font-size: 58px;
+}
+
+button {
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+
+.container {
+    width: 550px;
+    background: #F4F4F4;
 }

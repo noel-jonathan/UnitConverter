@@ -2,10 +2,7 @@
 
 html {
     font-family: Inter;
-}
-
-body {
-    
+    color: #FFF;
 }
 
 header {
@@ -16,6 +13,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+header * {
+    margin: auto;
+}
+
+header:first-child {
+    padding-top: 32px;
 }
 
 button, input {
@@ -35,5 +40,24 @@ button {
 
 .container {
     width: 550px;
-    background: #F4F4F4;
+    background: #1F2937;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.container div {
+    box-sizing: border-box;
+    background: #273549;
+    padding: 32px 20px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
 }

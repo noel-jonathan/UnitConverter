@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Inter");
+
+html {
+    font-family: Inter;
+}
+
+header {
+    background: #FBBF24;
+}

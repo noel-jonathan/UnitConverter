@@ -27,11 +27,11 @@ function convert(value, ratio, conversionWay) {
 }
 
 function renderConversion(targetEl, metric, imperial) {
-    targetEl.textContent = `
+    targetEl.innerHTML = `
         ${input.value} ${metric} = 
-        ${convert(input.value, convertRatio[metric], true).toFixed(2)} ${imperial} | 
+        ${convert(input.value, convertRatio[metric], true).toFixed(2)} ${imperial} <p> 
         ${input.value} ${imperial} =
-        ${convert(input.value, convertRatio[metric], false).toFixed(2)} ${metric}
+        ${convert(input.value, convertRatio[metric], false).toFixed(2)} ${metric} </p>
     `
 }
 

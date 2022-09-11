@@ -3,16 +3,22 @@
 html {
     font-family: Inter;
     color: #FFF;
+    background: #111827;
+}
+
+html *{
+    margin: auto;
 }
 
 header {
     width: 550px;
     height: 285px;
-    background: #F59E0B;
+    background: #6943FF;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
 header * {
@@ -29,7 +35,12 @@ button, input {
 }
 
 input {
+    background: #6943FF;
     font-size: 58px;
+    text-align: center;
+    color: white;
+    border: 2px solid #1F2937;
+    border-radius: 5px;
 }
 
 button {
@@ -41,23 +52,28 @@ button {
 .container {
     width: 550px;
     background: #1F2937;
-    text-align: center;
     padding: 12px 0;
 }
 
 .container div {
     box-sizing: border-box;
     background: #273549;
-    padding: 32px 20px;
+    padding : 32px 20px;
     width: 500px;
     margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h3 {
     font-size: 20px;
     margin: 0;
+    text-align: center;
 }
 
 p {
     font-size: 14px;
+    margin: 0;
+    width: 200px;
 }
